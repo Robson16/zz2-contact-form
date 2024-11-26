@@ -41,62 +41,106 @@
   <body>
     <header>
       <div class="container">
-        <h1>ZZ2: Formulário de Contato</h1>
+        <h1>ZZ2: QUEM SOMOS?</h1>
       </div>
       <!-- /.container -->
     </header>
     <main>
       <div class="container">
-        <form id="contactForm">
-          <label for="name">
-            <span class="screen-reader-text">Nome:</span>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Nome"
-              required
-            />
-          </label>
-          <label for="email">
-            <span class="screen-reader-text">Email:</span>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email"
-              required
-            />
-          </label>
-          <label for="phone">
-            <span class="screen-reader-text">Telefone:</span>
-            <input
-              type="text"
-              id="phone"
-              name="phone"
-              placeholder="Telefone"
-              required
-            />
-          </label>
-          <label for="message">
-            <span class="screen-reader-text">Mensagem:</span>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Mensagem"
-              rows="12"
-              required
-            ></textarea>
-          </label>
-          <label for="message">
-            <input type="submit" value="Enviar" />
-          </label>
-        </form>
+        <section id="quem-somos">
+          <p class="text-center">
+            A <strong>ZZ2</strong> é uma empresa com uma história de
+            <strong>15 anos</strong> no mercado, destacando-se como pioneira no
+            Brasil no desenvolvimento de
+            <em>soluções automotivas inovadoras</em>. Com foco dedicado à
+            qualidade, possui engenharia e fabricação próprias, garantindo
+            produtos de alto padrão.
+          </p>
+          <p class="text-center">
+            A entrada no mercado dos <strong>Estados Unidos</strong> em 2019 foi
+            um marco significativo para a ZZ2, elevando-a ao status de
+            referência no segmento. Mas a expansão internacional foi além, e a
+            empresa agora também conquista mercados na <strong>Europa</strong>,
+            desenvolvendo e fornecendo soluções automotivas que oferecem
+            <strong>segurança</strong>, <strong>entretenimento</strong>,
+            <strong>tecnologia</strong> e <strong>comodidade</strong>.
+          </p>
+          <p class="text-center">
+            Além da qualidade, a empresa preza por uma
+            <strong>assistência técnica humanizada</strong>, proporcionando
+            confiança e tranquilidade tanto para lojistas quanto para clientes
+            finais. A <strong>garantia</strong> associada aos produtos reforça o
+            compromisso da ZZ2 em assegurar a satisfação e a durabilidade de
+            seus produtos.
+          </p>
+          <p class="text-center">
+            O sucesso da ZZ2 é impulsionado pelo empenho e dedicação de uma
+            equipe de colaboradores engajados, que compartilham a visão de
+            oferecer o melhor atendimento aos clientes.
+          </p>
+          <p class="text-center">
+            Ao olhar para o futuro, a ZZ2 reafirma seu compromisso em oferecer
+            <strong>soluções automotivas inovadoras</strong>, mantendo-se na
+            vanguarda do mercado e proporcionando experiências excepcionais.
+          </p>
+        </section>
+        <!-- /#quem-somos -->
 
-        <p>
-          <span id="spinner" style="display: none">Enviando...</span>
-          <span id="responseMessage"></span>
-        </p>
+        <section id="contato">
+          <h2>Entre em Contato:</h2>
+
+          <form id="contactForm">
+            <label for="name">
+              <span class="screen-reader-text">Nome:</span>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nome"
+                required
+              />
+            </label>
+            <label for="email">
+              <span class="screen-reader-text">Email:</span>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </label>
+            <label for="phone">
+              <span class="screen-reader-text">Telefone:</span>
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Telefone"
+                required
+              />
+            </label>
+            <label for="message">
+              <span class="screen-reader-text">Mensagem:</span>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Mensagem"
+                rows="12"
+                required
+              ></textarea>
+            </label>
+            <label for="message">
+              <input type="submit" value="Enviar" />
+            </label>
+          </form>
+
+          <p>
+            <span id="spinner" style="display: none">Enviando...</span>
+            <span id="responseMessage"></span>
+          </p>
+        </section>
+        <!-- /#contato -->
       </div>
       <!-- /.container -->
     </main>
